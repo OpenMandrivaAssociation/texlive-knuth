@@ -1,3 +1,9 @@
+# revision 23389
+# category Package
+# catalog-ctan /systems/knuth/dist/errata
+# catalog-date 2008-07-11 09:05:11 +0200
+# catalog-license knuth
+# catalog-version undef
 Name:		texlive-knuth
 Version:	20080711
 Release:	1
@@ -62,6 +68,7 @@ fonts, and for TeX, MetaFont and related programs.
 %doc %{_texmfdistdir}/source/generic/knuth/errata/logmac.tex
 %doc %{_texmfdistdir}/source/generic/knuth/tex/glue.web
 %doc %{_texmfdistdir}/source/generic/knuth/web/webman.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -72,3 +79,5 @@ fonts, and for TeX, MetaFont and related programs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
