@@ -17,9 +17,6 @@ Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/knuth.source.tar.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 These files are details of problems reported in the 'Computers
@@ -68,7 +65,6 @@ fonts, and for TeX, MetaFont and related programs.
 %doc %{_texmfdistdir}/source/generic/knuth/errata/logmac.tex
 %doc %{_texmfdistdir}/source/generic/knuth/tex/glue.web
 %doc %{_texmfdistdir}/source/generic/knuth/web/webman.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -79,5 +75,3 @@ fonts, and for TeX, MetaFont and related programs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
