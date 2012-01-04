@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-knuth
 Version:	20080711
-Release:	1
+Release:	2
 Summary:	Knuth's published errata
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/errata
