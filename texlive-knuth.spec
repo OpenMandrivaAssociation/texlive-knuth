@@ -75,3 +75,17 @@ fonts, and for TeX, MetaFont and related programs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080711-2
++ Revision: 752991
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080711-1
++ Revision: 718780
+- texlive-knuth
+- texlive-knuth
+- texlive-knuth
+- texlive-knuth
+
