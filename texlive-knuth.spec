@@ -1,12 +1,12 @@
-# revision 23389
+# revision 30780
 # category Package
 # catalog-ctan /systems/knuth/dist/errata
-# catalog-date 2008-07-11 09:05:11 +0200
+# catalog-date 2012-06-11 20:26:30 +0200
 # catalog-license knuth
 # catalog-version undef
 Name:		texlive-knuth
-Version:	20080711
-Release:	2
+Version:	20120611
+Release:	1
 Summary:	Knuth's published errata
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/errata
@@ -75,17 +75,3 @@ fonts, and for TeX, MetaFont and related programs.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080711-2
-+ Revision: 752991
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080711-1
-+ Revision: 718780
-- texlive-knuth
-- texlive-knuth
-- texlive-knuth
-- texlive-knuth
-
