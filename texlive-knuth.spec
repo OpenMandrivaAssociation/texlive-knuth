@@ -1,12 +1,12 @@
-# revision 30780
+# revision 32899
 # category Package
 # catalog-ctan /systems/knuth/dist/errata
-# catalog-date 2012-06-11 20:26:30 +0200
+# catalog-date 2014-01-19 09:33:29 +0100
 # catalog-license knuth
 # catalog-version undef
 Name:		texlive-knuth
-Version:	20120611
-Release:	5
+Version:	20140119
+Release:	1
 Summary:	Knuth's published errata
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/errata
