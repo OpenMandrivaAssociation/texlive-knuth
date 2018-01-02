@@ -1,9 +1,3 @@
-# revision 32899
-# category Package
-# catalog-ctan /systems/knuth/dist/errata
-# catalog-date 2014-01-19 09:33:29 +0100
-# catalog-license knuth
-# catalog-version undef
 Name:		texlive-knuth
 Version:	20170414
 Release:	1
@@ -25,46 +19,9 @@ fonts, and for TeX, MetaFont and related programs.
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/generic/knuth/errata/cm85.bug
-%doc %{_texmfdistdir}/doc/generic/knuth/errata/errata.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/errata/errorlog.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/errata/mf84.bug
-%doc %{_texmfdistdir}/doc/generic/knuth/errata/tex82.bug
-%doc %{_texmfdistdir}/doc/generic/knuth/etc/vftovp.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/etc/vptovf.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/mf/mf.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/mf/trapman.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/mfware/gftodvi.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/mfware/gftopk.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/mfware/gftype.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/mfware/mft.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/tex/glue.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/tex/tex.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/tex/tripman.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/texware/dvitype.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/texware/pltotf.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/texware/pooltype.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/texware/tftopl.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/web/tangle.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/web/weave.pdf
-%doc %{_texmfdistdir}/doc/generic/knuth/web/webman.pdf
+%doc %{_texmfdistdir}/doc/generic/knuth
 #- source
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.eight
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.eleven
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.five
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.four
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.nine
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.one
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.seven
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.six
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.ten
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.tex
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.three
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errata.two
-%doc %{_texmfdistdir}/source/generic/knuth/errata/errorlog.tex
-%doc %{_texmfdistdir}/source/generic/knuth/errata/logmac.tex
-%doc %{_texmfdistdir}/source/generic/knuth/tex/glue.web
-%doc %{_texmfdistdir}/source/generic/knuth/web/webman.tex
+%doc %{_texmfdistdir}/source/generic/knuth
 
 #-----------------------------------------------------------------------
 %prep
