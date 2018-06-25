@@ -1,5 +1,5 @@
 Name:		texlive-knuth
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Knuth's published errata
 Group:		Publishing
