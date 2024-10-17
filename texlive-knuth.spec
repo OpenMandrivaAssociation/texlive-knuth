@@ -3,7 +3,7 @@ Version:	20190228
 Release:	2
 Summary:	Knuth's published errata
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/systems/knuth/dist/errata
+URL:		https://www.ctan.org/tex-archive/systems/knuth/dist/errata
 License:	KNUTH
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/knuth.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/knuth.doc.tar.xz
